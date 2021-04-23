@@ -20,7 +20,7 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <link rel="icon" href="images/logo.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
@@ -47,7 +47,7 @@
                             <div class="full">
                                 <div class="center-desk">
                                     <div class="logo">
-                                        <a href="index.html"><i class="fa fa-video-camera " alt="#" /></i></a>
+                                        <a href="index.html"><img src="images/logo2.png" style="width:100px;" alt="#" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -81,15 +81,17 @@
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="text-bg">
-                                    <h1>amazing<br> 3d game</h1>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-                                        tempor incididunt ut</span>
-                                    <a href="#">download</a>
+                                    <h1>welcome<br> to imdb</h1>
+                                    <span>
+                                        Welcome to IMDb, a place where you can find everything about movies, TV and celebrity content. 
+                                        <br> Find ratings and reviews for the newest movie and TV shows.
+                                        </span>
+                                    <a href="https://adopse-imdb.herokuapp.com/" target="_blank">Visit our page</a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                                 <div class="text-img">
-                                    <figure><img src="images/img.jpg" alt="#" /></figure>
+                                    <figure><img src="images/index1.png" alt="#" /></figure>
                                 </div>
                             </div>
 
@@ -118,19 +120,18 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image1.jpg" alt="#" /></figure>
+                                <figure><img src="images/movie.png" alt="#" style="width: 200px;" /></figure>
                             </div>
                         </div>
 
                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 
                             <div class="Games">
-                                <h3>Angry Birds</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <h3>Movies</h3>
+                                <p>Search for your favourite movies of all categories or
+                                   see top rated films based on ratings by the registered users of the website.
+                                   </p>
+                                <a href="https://adopse-imdb.herokuapp.com/Movies" target="_blank">See more</a>
                             </div>
                         </div>
                     </div>
@@ -140,19 +141,19 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image2.jpg" alt="#" /></figure>
+                                <figure><img src="images/actor.png" style="width: 200px;" alt="#" /></figure>
                             </div>
                         </div>
 
                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 
                             <div class="Games">
-                                <h3>Sanke</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <h3>Actors</h3>
+                                <p>Search details about your favourite famous actors
+                                   through their bio, the movies they've played and any other information.
+                                    
+                                </p>
+                                <a href="https://adopse-imdb.herokuapp.com/Actor" target="_blank">See more</a>
                             </div>
                         </div>
                     </div>
@@ -162,19 +163,18 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image3.jpg" alt="#" /></figure>
+                                <figure><img src="images/tv.png" style="width: 200px;" alt="#" /></figure>
                             </div>
                         </div>
 
                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 
                             <div class="Games">
-                                <h3>Cricket</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
+                                <h3>Series</h3>
+                                <p>From sitcoms to dramas to travel and talk shows, find all the best programs on TV
+                                    via ratings and reviews.
+                                </p>
+                                <a href="https://adopse-imdb.herokuapp.com/Series" target="_blank">See more</a>
                             </div>
                         </div>
                     </div>
@@ -183,6 +183,8 @@
         </div>
     </div>
     <!-- end our -->
+
+    <button onclick="topFunction()" id="myBtn" ><i class="fa fa-arrow-circle-up"></i></button>
 
     <!-- We are -->
     <div id="about" class="We_are">
@@ -200,21 +202,22 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="box_bg">
                         <div class="box_bg_img">
-                            <figure><img src="images/soft.jpg"></figure>
+                           
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
                     <div class="box_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem
-                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat</p>
-                        <a href="#">Read more</a>
+                        <p>Based on the original IMDB,we created this web app based in C# and .NET CORE technologies 
+                           to provide the best resaults about movies,actors and series based on our recommendation 
+                           resources for quality entertainment.
+                           Search for the latest and best movies and series for all categories, get to know the 
+                           actors of each movie, add movies and series to your watchlist and leave your review and rate them 
+                           to let our community know about their quality. 
+                            </br>
+                            </br> 
+                        </p>
+                        <a href="https://adopse-imdb.herokuapp.com/">See more</a>
                     </div>
                 </div>
             </div>
@@ -235,11 +238,21 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-box">
-                        <figure><img src="images/about.jpg" alt="#" /></figure>
+                        
 
-                        <p> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            <br> labore et dolore magna aliqua. Ut enim conseq
+                        <p>Here are some of the tools,coding languages and programs  
+                            <br>used to build our application.
+                            
                         </p>
+
+                        <figure >
+                            <br/>
+                            <br/>
+                            <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"/> 
+                            <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dotnet/dotnet.png" />  
+                            <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" /> 
+                            <img src="images/vs.png"/> 
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -258,30 +271,35 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 offset-md-2">
-                    <div class="row box">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test1.png" alt="#" /></figure>
-                            </div>
+                    <div class="row">
+                        <div class="column">
+                            <a href="https://github.com/Giapa" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/43914616?v=4" /></a>
                         </div>
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test2.png" alt="#" /></figure>
-                            </div>
+                        <div class="column">
+                            <a href="https://github.com/elenhka98" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/73292015?v=4" /></a>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test3.png" alt="#" /></figure>
-                            </div>
+                        <div class="column">
+                            <a href="https://github.com/savvas23" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/63872837?v=4" /></a>
                         </div>
-                    </div>
+                        <div class="column">
+                            <a href="https://github.com/it164782" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/57405030?v=4" /></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://github.com/movariemai" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/57597993?v=4"  ></a>
+                          </div>
+                      </div>  
+
                     <div class="clients_box">
-                        <h3>Jecoo</h3>
-                        <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            <br>aliqua. Ut enim ad minim veniam, quis
-                            <br>nostrud exercitation ullamco
+                        <h3>Who we are</h3>
+
+                        <p>We are students of computer science at <b><a href="https://www.iee.ihu.gr/">IHU SKG</a></b>
+                            <br>Visit our github pages to get to know us 
+                            
                         </p>
 
                     </div>
@@ -295,9 +313,9 @@
 
     <!--  footer -->
     <footr>
-        <div class="footer ">
+        <div class="footer" id="find">
             <div class="container align-top">
-                <p>You have reach the end. Find us on github to find the code of our application</p>
+                <p>You have reach the end. Find us on <a href="https://github.com/AdopseTeam/IMDB">github</a> to find the code of our application</p>
             </div>
         </div>
     </footr>
@@ -312,6 +330,28 @@
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+    <script>
+        
+        var mybutton = document.getElementById("myBtn");
+        
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
 </body>
 
