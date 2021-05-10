@@ -91,8 +91,12 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                                 <div class="text-img">
-                                    <figure><img src="images/index1.png" alt="#" /></figure>
+                                    <figure >
+                                        <img class="mySlides" src="images/index1.png" style="width:100%">
+                                        <img class="mySlides" src="images/index2.png" style="width:100%">
+                                        <img class="mySlides" src="images/index3.png" style="width:100%"></figure>
                                 </div>
+  
                             </div>
 
 
@@ -202,8 +206,9 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="box_bg">
                         <div class="box_bg_img">
-                           
+                            <img src="images/movie2.png" style="width: 350px;" />
                         </div>
+                       
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
@@ -351,6 +356,23 @@
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         }
+
+        var myIndex = 0;
+        carousel();
+                                        
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+             for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+             }
+             myIndex++;
+             if (myIndex > x.length) {myIndex = 1}    
+             x[myIndex-1].style.display = "block";  
+             setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+                                   
+                                        
         </script>
 
 </body>
